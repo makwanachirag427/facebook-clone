@@ -1,0 +1,19 @@
+.contacts {
+    width: 283px;
+    position: fixed;
+}
+.contact__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact__header > h3{
+  color: grey;
+  font-size: 17px;
+  font-weight: 600;
+}
+.contact__button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}

@@ -1,0 +1,12 @@
+.widgets {
+  flex-basis: 22.5%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+@media only screen and (min-width: 0px) and (max-width: 920px) {
+  .widgets {
+    display:none;
+  }
+}

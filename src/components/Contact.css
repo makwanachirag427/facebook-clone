@@ -1,0 +1,19 @@
+.contact {
+  height: 44px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-inline: 8px;
+  cursor: pointer;
+}
+.contact:hover {
+  background-color: rgba(215, 215, 215, 0.4);
+  border-radius: 10px;
+}
+.contact > h4 {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #050505;
+  font-weight: 600;
+}
